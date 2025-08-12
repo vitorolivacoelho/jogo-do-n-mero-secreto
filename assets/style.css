@@ -6,15 +6,15 @@
 *{
     box-sizing: border-box;
     padding: 0;
-    margin: 0;   
+    margin: 0;
 }
 
 body{
     display: flex;
     justify-content: center;
-    align-items: first baseline;
+    align-items: center;
     padding: 10%;
-    font-family: "Pixelify Sans", sans-serif;
+    font-family: "Jersey 10", sans-serif;
     background-image: url(../img/espaço.png);
     background-position: center;
     background-size: cover;
@@ -45,6 +45,8 @@ body{
 h1{
     margin-bottom: 60px;
     color: rgb(255, 255, 255);
+    font-size: 60px;
+    height: 70px;
 }
 
 p{
@@ -60,10 +62,13 @@ p{
     font-size: 30px;
     padding: 15px;
     color: black;
+    font-family: "Jersey 10", sans-serif;
+
 }
 
 .conteiner_botoes{
     padding-top: 60px;
+
 }
 
 .conteiner_botao{
@@ -72,10 +77,6 @@ p{
     width: 270px;
     font-family: "Pixelify Sans", sans-serif;
     height: 60px;
-}
-
-.imagem-coelho {
-    width: 400px;
-    padding-bottom: 10px;
-    padding-left: 120px;
+    border: 2px solid;
+    font-family: "Jersey 10", sans-serif;
 }
