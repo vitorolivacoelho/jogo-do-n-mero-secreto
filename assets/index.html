@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo do número secreto</title>    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coral+Pixels&family=Jersey+10&family=Pixelify+Sans:wght@400..700&display=swap"     
+    rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="conteiner">
+
+        <div class="conteiner_conteudo">
+            <div class="conteiner_informações">
+                <div class="conteiner_texto">
+                    <h1 style="white-space: nowrap;">Jogo do número secreto</h1>
+                    <p>Escolha um número entre 1 a 10</p>
+                </div>
+                <input type="number" min="1" max="10" class="conteiner_input"> 
+                <div class="conteiner_botoes">
+                    <button onclick="verificarChute()" class="conteiner_botao">Chutar</button>
+                    <button onclick="reiniciarJogo()" class="conteiner_botao">Novo Jogo</button>
+                    
+                </div>
+            </div>
+        </div>        
+        <img src="../img/astronauta.png" class="astronauta" alt="astro">
+    </div>
+</body>
+</html>

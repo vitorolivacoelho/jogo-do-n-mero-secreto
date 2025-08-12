@@ -1,0 +1,81 @@
+.conteiner_botoes{
+    display: flex;
+    gap: 2em;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;   
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: first baseline;
+    padding: 10%;
+    font-family: "Pixelify Sans", sans-serif;
+    background-image: url(../img/espaço.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.conteiner{
+    width: 100%;
+    max-width: 1300px;
+    padding: 100px;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.513);
+    color: rgb(0, 0, 0);
+    border: 4px solid;
+    min-height: 600px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: first baseline;
+    backdrop-filter: blur(2px);
+}
+
+
+.conteiner_conteudo{
+    padding-top: 5%;
+    font-size: 30px;
+}
+
+h1{
+    margin-bottom: 60px;
+    color: rgb(255, 255, 255);
+}
+
+p{
+    padding-bottom: 10px;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+
+.conteiner_input{
+    padding-bottom: 2px;
+    border-radius: 10px;
+    width: 605px;
+    font-size: 30px;
+    padding: 15px;
+    color: black;
+}
+
+.conteiner_botoes{
+    padding-top: 60px;
+}
+
+.conteiner_botao{
+    font-size: 27px;
+    border-radius: 10px;
+    width: 270px;
+    font-family: "Pixelify Sans", sans-serif;
+    height: 60px;
+}
+
+.imagem-coelho {
+    width: 400px;
+    padding-bottom: 10px;
+    padding-left: 120px;
+}
