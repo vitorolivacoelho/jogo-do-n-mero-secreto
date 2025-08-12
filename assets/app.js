@@ -3,7 +3,7 @@ console.log(numeroSecreto);
 let tentativas = 1;
 
 function gerarNumeroAleatório(){
-    return parseInt(Math.random() * 10 + 1);
+    return parseInt(Math.random() * 100 + 1);
 }
 
 function alterarTexto(id, texto){
@@ -53,6 +53,6 @@ function reiniciarJogo(){
     numeroSecreto = gerarNumeroAleatório();
     tentativas = 1
     alterarTexto('mensagem', "Jogo do número secreto");
-    alterarTexto('dicas', "Escolha um número de 1 a 10");
+    alterarTexto('dicas', "Escolha um número de 1 a 100");
     limpar();
 }
